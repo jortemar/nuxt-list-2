@@ -19,7 +19,7 @@
 
 <script setup>
 useHead({
-    title: "Home"
+    title: "Default"
 })
 
 
