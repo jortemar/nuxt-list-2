@@ -2,10 +2,9 @@
     <div>
         <Navbar />
 
-        <main class="container">
+        <main class="container p-3 my-5 border rounded shadow">
             <slot></slot>
         </main>
-
 
         <Footer />
     </div>
@@ -17,7 +16,7 @@ useHead({
     titleTemplate: "%s - Intro Nuxt",
     bodyAttrs: [
         {
-        class: "text-center"
+            class: "text-center"
         }
     ],
     link: [
@@ -32,7 +31,6 @@ useHead({
     script: [
         {
             src: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-
 
         }
     ]

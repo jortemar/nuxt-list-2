@@ -1,5 +1,5 @@
 <template>
-    <footer>&copy; José Ortega -- {{ currentYear }}</footer>
+    <footer class="mt-5 bg-dark text-white p-5">&copy; José Ortega -- {{ currentYear }}</footer>
 </template>
 
 <script setup>
@@ -7,3 +7,12 @@
 
 
 </script>
+
+<style scoped>
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+</style>
